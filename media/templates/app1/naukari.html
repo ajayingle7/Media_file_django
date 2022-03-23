@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="jumbotron">
+<form method="post">
+
+    {% csrf_token %}
+
+
+    <input type="text" name="eid" placeholder="Eid eg. 1" class="form-control" required>
+    <br>
+
+    <input type="text" name="ename" placeholder="eg. Ajay Ingle" class="form-control" required>
+
+    <br>
+
+    <input type="file" accept="image/jpeg, application/pdf, image/jpg" required name="resume">
+    <br>
+    <center>
+    <input type="submit" name="submit" class="btn btn-info">
+    </center>
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+</body>
+</html>
